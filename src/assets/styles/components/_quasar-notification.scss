@@ -1,0 +1,41 @@
+.q-notification {
+  border: 1px solid #FFFFFF;
+  border-radius: 0.4rem;
+  padding: 0;
+
+  .q-notification__wrapper {
+    margin: 0;
+    max-width: 42rem;
+  }
+
+  .q-notification__content {
+    padding: 1.2rem;
+
+    .q-notification__message {
+      padding: 0 2rem 0 0;
+    }
+
+    .q-notification__icon {
+      margin-right: 1.2rem;
+    }
+  }
+
+  .q-notification__content:first-child {
+    align-items: stretch;
+  }
+
+  .q-notification__actions {
+    padding: 0 !important;
+    position: absolute;
+    top: 2px;
+    right: -7px;
+
+    .q-focus-helper {
+      display: none;
+    }
+
+    .q-icon {
+      font-size: 1.4rem;
+    }
+  }
+}
